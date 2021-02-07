@@ -1,0 +1,2 @@
+# BashFu
+Bash scripting - kungfu!
