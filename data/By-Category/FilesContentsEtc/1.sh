@@ -22,4 +22,4 @@ find . -name "*.dll" -type f -exec strings {} \;
 # sleep 5
 
 
-# E.g find . -name $EXT -type f -exec $CMD {} \; # you can pipe it here, e.g  | >> outfile.txt # or, you can further operate on the stream: grep "keyword1\|keyword2" >> outfile.txt
+# E.g find . -name $EXT -type f -exec $CMD {} \; # you can redirect it here, e.g  | >> outfile.txt # or, you can further operate on the stream: grep "keyword1\|keyword2" >> outfile.txt
