@@ -5,6 +5,10 @@
 
 find . -name "*.dll" -type f -exec strings {} \;
 
+# improvement:
+find . -name "*.dll" -maxdepth <num here> -type f -exec <cmd here> {} \;
+
+
 # env usage (NOT tested)
 
 # echo "Enter EXT (e.g \"*.dll\")"
